@@ -38,15 +38,15 @@ CREATE TABLE IF NOT EXISTS EMPLOYEE_SKILLS
 INSERT INTO DEPARTMENTS(DEPARTMENT_ID, DEPARTMENT_NAME)
 
 VALUES                 (            1,         'NORTH'),
-					   (            2,		   'SOUTH'),
-                       (			3,			'WEST'),
-                       (			4,			'EAST'),
+                       (            2,		   'SOUTH'),
+                       (	    3,			'WEST'),
+                       (	    4,			'EAST'),
                        (			5,	  'NORTH-WEST'),
                        (			6,	  'NORTH-EAST'),
                        (			7,	  'SOUTH-WEST'),
                        (			8,	  'SOUTH-EAST'),
                        (			9,		 'CENTRAL'),
-                       (		   10,		 'NOWHERE');
+                       (		       10,		 'NOWHERE');
                        
 INSERT INTO EMPLOYEES(EMPLOYEE_ID, EMPLOYEE_NAME, DEPARTMENT_ID)
 
